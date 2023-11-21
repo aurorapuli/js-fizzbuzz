@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: brown;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#title{
+    margin: 30px 0;
+    color: white;
+    font-size: 50px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.col{
+    width:calc((100% / 7) - 20px) ;
+    margin: 10px 10px;
+    background-color: blue;
+    height: 87px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
