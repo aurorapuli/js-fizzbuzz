@@ -35,5 +35,16 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+}
+
+.color1{
+    background-color: #f0466f;
+}
+
+.color2{
+    background-color: #ffd166;
+}
+
+.color3{
+    background-color: #0cd6a1;
 }

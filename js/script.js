@@ -10,30 +10,27 @@ for (let i = 1; i <= 100; i++){
     if(i % 5 == 0 && i % 3 == 0){
 
         const col = 
-        `<div class="col" id="color">
+        `<div class="col color1">
            fizzbuzz
          </div>     
 `;
      row.innerHTML += col;
-      document.getElementById("color").style.backgroundColor = "#f0466f";
     } else if (i % 5 == 0){
          const col = 
-         `<div class="col" id="color">
+         `<div class="col color2">
             buzz
           </div>     
  `;
       row.innerHTML += col;
-      document.getElementById("color").style.backgroundColor = "#ffd166";
 
      } else if (i % 3 == 0){
 
         const col = 
-        `<div class="col" id="color">
+        `<div class="col color3">
            fizz
          </div>     
 `;
      row.innerHTML += col;
-     document.getElementById("color").style.backgroundColor = "#0cd6a1";
 
      } else {
         // creiamo il div completo
